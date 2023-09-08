@@ -1,0 +1,5 @@
+development:
+  ZOOM_CLIENT_ID: puNWsbm9SaVRtwM2wQCgA
+  ZOOM_CLIENT_SECRET: 9iA6uON6YEmXTrocY18PF5OoJnMyiU8W
+  ZOOM_REDIRECT_URI: https://eb02-117-196-192-137.ngrok-free.app/callback
+  

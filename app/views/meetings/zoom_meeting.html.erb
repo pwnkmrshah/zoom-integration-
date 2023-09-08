@@ -1,0 +1,5 @@
+<%= form_tag schedule_zoom_meeting_url, method: :post do %>
+	Schedule your meeting from here
+  <%= hidden_field_tag :access_token, @access_token %>
+  <%= submit_tag 'Schedule Meeting', class: 'btn btn-primary' %>
+<% end %>

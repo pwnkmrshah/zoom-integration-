@@ -1,0 +1,2 @@
+class ZoomMeeting < ApplicationRecord
+end

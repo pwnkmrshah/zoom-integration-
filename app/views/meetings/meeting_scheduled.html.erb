@@ -1,0 +1,9 @@
+<% if flash[:notice] %>
+  <div class="alert alert-success">
+    <%= flash[:notice] %>
+  </div>
+<% end %>
+
+<%= link_to 'Join Meeting as host', @meeting_data.start_url, class: 'btn btn-primary' %>
+
+<%= link_to 'Join Meeting as guest', @meeting_data.start_url, class: 'btn btn-primary' %>
